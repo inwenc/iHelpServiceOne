@@ -1,0 +1,144 @@
+.calendarFrame, .day {
+  border-style: solid;
+  border-color: rgb(113, 116, 101);
+  border-width: 1px;
+  text-align: center;
+  float:center;
+  border-radius: 1px;
+  z-index: 4;
+  margin: 10px;
+  position:absolute;
+  padding: 10px;
+  background-color: white;
+  width: 175px;
+  height: 155px;
+}
+
+.mainFrame {
+  width: 200px;
+  border-style: solid;
+  border-width: 1px;
+  margin: 10px;
+  border-color: rgb(113, 116, 101);
+  padding: 10px;
+  padding-right: 5%;
+  text-align: left;
+  font-family: Circular;
+  border-radius: 1px;
+  height: 350px;
+  z-index: 2;
+}
+
+.dateFrame {
+  border-style: solid;
+  border-color: rgb(113, 116, 101);
+  border-width: 1px;
+  text-align: center;
+  border-radius: 7px;
+  z-index: 2;
+}
+.clearButton {
+  float: right;
+  padding:0 1px;
+}
+
+.guestButton, .closeButton, .goRight, .checkOutButton {
+float: right;
+}
+.unavailableDay {
+  border-style: solid;
+  border-color: rgb(113, 116, 101);
+  border-width: 1px;
+  text-align: center;
+  float:center;
+  color: rgba(211, 202, 202, 0.87);
+  font-size: 12px;
+  text-decoration: line-through;
+  margin: 0px;
+  padding: 2px;
+}
+.availableDay  {
+  border:1px solid transparent;
+  border-color: rgb(113, 116, 101);
+  border-width: 1px;
+  font-size: 12px;
+  text-align: center;
+  float:center;
+  color: black;
+  font-weight: 1px;
+  margin: 0px;
+  padding: 2px;
+
+}
+
+.availableDay:hover {
+  background-color: rgb(38, 198, 204);
+  border: 1px solid rgb(38, 171, 204);
+}
+
+.helpButton {
+  margin-top: 40px;
+  float: center;
+  width: 60px;
+  height: 20px;
+  background-color: rgb(207, 74, 74);
+  color: white;
+  font-weight: bold;
+  box-shadow: 1px;
+}
+.checkInButton, .goLeft {
+  float: left;
+}
+.iHelp {
+  text-align: center;
+  vertical-align: middle;
+  padding-left: 20px;
+  color: rgb(194, 26, 129);
+  font-weight: bold;
+
+}
+
+
+
+  .calendarBoard {
+    border-collapse: collapse;
+    z-index: 3;
+
+  }
+
+  .text {
+    font: Circular;
+  }
+
+  .priceBreakup {
+    z-index: 1;
+    margin-top: 15px;
+  }
+
+  .guestsMenu {
+    z-index: 2;
+    width: 200px;
+    position: absolute;
+    background-color: white;
+    border-style: solid;
+    border: 1px solid transparent;
+    border-radius: 5px;
+
+
+
+  }
+  .guestsFrame {
+    height: 20px;
+    background-color: white;
+    border-style: solid;
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: rgba(116, 95, 28, 0.781);
+    text-align: left;
+    margin-top: 3px;
+    z-index: 2;
+  }
+
+  .emoji {
+    font-size: 10px;
+  }
